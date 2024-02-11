@@ -809,6 +809,9 @@ class Graph {
     *          https://www.geeksforgeeks.org/welsh-powell-graph-colouring-algorithm/
     *          https://www.tutorialspoint.com/de-powell-graph-colouring-algorithm
    */
+
+  double Graph<T>::dincs_algorithm(const Node<T> &source,const Node<T> &target) const{}
+
   virtual std::map<Node<T>, int> welshPowellColoring()  const;
 
   /**
